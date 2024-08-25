@@ -1,3 +1,5 @@
+# Commands used to create and implement this charts
+'''bash
 helm create helmchart \n
 cd helmchart/ \n
 ls
@@ -64,3 +66,4 @@ nano prod-values.yaml
 cd
 helm install petclinic helmchart -f helmchart/prod-values.yaml 
 helm install petclinic2 helmchart -f helmchart/staging-values.yaml 
+'''
