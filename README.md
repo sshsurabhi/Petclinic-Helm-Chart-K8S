@@ -1,16 +1,14 @@
 # Commands used to create and implement this charts
-```python
+```bash
 
-    helm create helmchart \n
-    cd helmchart/ \n
-    mkdir templates/deployments && templates/misc && templates/services \n
+    helm create helmchart
+    cd helmchart/
+    mkdir templates/deployments && templates/misc && templates/services
     mv values.yaml staging-values.yaml
     nano staging-values.yaml 
     rm staging-values.yaml 
     nano staging-values.yaml 
     nano prod-values.yaml
-    ls -a
-    nano .helmignore 
     nano Chart.yaml 
     ls templates/
     cd templates/
