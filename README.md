@@ -1,7 +1,7 @@
-helm create helmchart
-cd helmchart/
+helm create helmchart \n
+cd helmchart/ \n
 ls
-mkdir templates/deployments
+mkdir templates/deployments \n
 mkdir templates/misc
 mkdir templates/services
 ls
