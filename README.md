@@ -7,7 +7,9 @@
     nano staging-values.yaml 
     nano prod-values.yaml
     nano Chart.yaml 
-    cd templates/
+```
++ remove the unnecessary files in the templated folder
+```bash
     rm _helpers.tpl deployment.yaml hpa.yaml ingress.yaml service.yaml serviceaccount.yaml 
     helm install petclinic petclinic
     helm install petclinic helmchart/petclinic
