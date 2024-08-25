@@ -1,0 +1,27 @@
+namespace: staging
+
+apigateway:
+  image: kevanto/spring-petclinic-api-gateway
+  version: latest
+  replicaCount: 1
+
+customersservice:
+  image: kevanto/spring-petclinic-customers-service
+  version: latest
+  replicaCount: 1
+
+vetsservice:
+  image: kevanto/spring-petclinic-vets-service
+  version: latest
+  replicaCount: 1
+
+visitsservice:
+  image: kevanto/spring-petclinic-visits-service
+  version: latest
+  replicaCount: 1
+
+database:
+  host: petclinic-db.c9mu0cykmyng.eu-west-3.rds.amazonaws.com:3306
+  name: petclinicdb
+  username: petclinic
+  password: redacted
