@@ -61,7 +61,6 @@ You can also deploy a different instance of the application using a staging conf
 ## Summary
 This deployment method enables you to leverage Helm for managing the PetClinic application, ensuring a consistent and simplified deployment process that integrates with the AWS infrastructure created with Terraform. Adjust the configuration values according to your environment and application requirements.
 
-
 Feel free to modify any part of this section to better align with your actual commands, directory structures, or naming conventions used in your project. You can also add any additional details or notes that might be useful for users who are following the instructions.
 
 ---
